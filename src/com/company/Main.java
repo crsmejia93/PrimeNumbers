@@ -12,7 +12,7 @@ public class Main {
         System.out.print("Enter a range, to find the prime numbers: ");
         range = input.nextInt();
 
-        for(int i =1; i<=range; i++){//iterates throw range
+        for(int i =1; i<=range; i++){//iterates thru range
             if(i==1){
                 System.out.println("1 is not a prime number.");
             }else if(i==2 || i==3){
